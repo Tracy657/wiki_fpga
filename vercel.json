@@ -1,12 +1,9 @@
 {
-    "version": 2,
-    "builds": [
-      { "src": "docusaurus.config.js", "use": "@docusaurus/core" }
-    ],
-    "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/$1"
+      }
     ]
   }
-     
-     
   
