@@ -1,18 +1,12 @@
 {
-
-    
     "version": 2,
-     
+    "builds": [
+      { "src": "docusaurus.config.js", "use": "@docusaurus/core" }
+    ],
     "routes": [
-     
-      { "handle": "filesystem" },
-     
-      { "src": "/(.*)", "status": 404, "dest": "/404.html" }
-     
+      { "src": "/(.*)", "dest": "/index.html" }
     ]
-     
   }
-     
      
      
   
