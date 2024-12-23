@@ -12,19 +12,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: '熙',
   tagline: '无问西东',
+
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://Tracy657.github.io',
+  url: 'https://wiki-fpga-tracy657s-projects.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Tracy657', // Usually your GitHub org/user name.
-  projectName: 'wiki_fpga', // Usually your repo name.
-  trailingSlash: false,
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
