@@ -9,11 +9,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   trailingSlash: false,
   url: 'https://tracy657.github.io',
   baseUrl: '/wiki_fpga/',
-  onBrokenLinks: 'log',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'Tracy657', // Usually your GitHub org/user name.
   projectName: 'wiki_fpga', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   presets: [
     [
