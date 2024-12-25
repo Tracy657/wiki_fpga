@@ -6,8 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://tracy657.github.io/wiki_fpga/',
-  baseUrl: '/',
+  trailingSlash: false,
+  url: 'https://tracy657.github.io',
+  baseUrl: '/wiki_fpga/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
