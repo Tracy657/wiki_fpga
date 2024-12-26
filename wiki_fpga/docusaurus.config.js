@@ -14,7 +14,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'Tracy657', // Usually your GitHub org/user name.
   projectName: 'wiki_fpga', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+
 
   presets: [
     [
