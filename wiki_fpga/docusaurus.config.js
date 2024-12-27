@@ -51,8 +51,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-           path: "./blog",
-            routeBasePath: "/",
+          //  path: "./blog",
+          //   routeBasePath: "/",
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
