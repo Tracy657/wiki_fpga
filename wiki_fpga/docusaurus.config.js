@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: "Humility's wiki",
+  tagline: 'Be like water, my friend',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -51,6 +51,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+           path: "./blog",
+            routeBasePath: "/",
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -77,7 +79,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: "Humility's wiki",
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -109,24 +111,24 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
+          //{
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //     {
+          //       label: 'X',
+          //       href: 'https://x.com/docusaurus',
+          //     },
+          //   ],
+          // },
+           {
             title: 'More',
             items: [
               {
